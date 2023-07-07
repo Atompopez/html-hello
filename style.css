@@ -1,0 +1,47 @@
+body{
+    width: 100%;
+    background-color: gainsboro;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+#head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+#espacio{
+    height: 30px;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+}
+.imagen{
+    width: 100%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 60px;
+}
+.titulo, .pie{
+    background-color: white;
+}
+h2, p{
+    margin: 12px;
+}
+.titulo p{
+    font-size: 16px;
+}
+.titulo h2{
+    font-size: 12px;
+    color: gray;
+}
